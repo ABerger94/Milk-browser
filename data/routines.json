@@ -1,0 +1,49 @@
+{
+  "routines": [
+    {
+      "completions": [
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07"
+      ],
+      "description": "Daily meds — keeps bugging until confirmed",
+      "id": "meds",
+      "name": "Take medications",
+      "schedule": "daily",
+      "time": "09:00"
+    },
+    {
+      "completions": [
+        "2026-10-06",
+        "2026-10-07"
+      ],
+      "description": "Fish get only what they finish in ~2 min. Sinking pellets near the bottom for Biscuit, Gravy, and the dojo loach.",
+      "id": "tank-feed",
+      "name": "Feed the tank",
+      "schedule": "daily",
+      "time": "08:30"
+    },
+    {
+      "completions": [
+        "2026-10-04"
+      ],
+      "description": "Test water parameters, then partial water change.",
+      "id": "water-test",
+      "name": "Water test + change",
+      "schedule": "weekly",
+      "time": "10:00",
+      "weekday": "Sunday"
+    },
+    {
+      "completions": [
+        "2026-10-01"
+      ],
+      "description": "Rinse media, check impeller, replace floss if needed.",
+      "id": "filter",
+      "monthday": 1,
+      "name": "Filter maintenance",
+      "schedule": "monthly",
+      "time": "10:00"
+    }
+  ]
+}
